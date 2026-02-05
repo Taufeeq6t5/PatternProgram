@@ -10,7 +10,9 @@ public class PyramidPattern {
         int n=sc.nextInt();
 
         for(i=1;i<=n ;i++){
-
+                       for(j=1;j<=i-n;j++){
+                System.out.println(" ");
+            }
  
             
             }
