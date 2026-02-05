@@ -22,7 +22,7 @@ public class PyramidPattern {
 
         }
 
-
+sc.close();
         
 
     }
