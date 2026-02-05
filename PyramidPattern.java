@@ -1,3 +1,5 @@
+package PatternProgram;
+
 import java.util.Scanner;
 
 public class PyramidPattern {
@@ -6,24 +8,23 @@ public class PyramidPattern {
 
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter the number rows: ");
+        System.out.print("Enter the number rows: ");
         int n=sc.nextInt();
 
-        for(i=1;i<=n ;i++){
-                       for(j=1;j<=i-n;j++){
-                System.out.println(" ");
-            }
-        for(int k=1;k<=2*i-1;k++){
-            System.out.println("*");
+        for(int i=1;i<=n ;i++){
 
-            }
-            System.out.println();
-
-
+        for(int j=1;j<=n-i;j++){
+        System.out.print(" ");
         }
-
-sc.close();
         
+        for(int k=1;k<=2*i-1;k++){
+        System.out.print("*");
+        }
+        
+        System.out.println();
 
+    }
+    sc.close();
+        
     }
 }
