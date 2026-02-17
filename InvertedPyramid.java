@@ -8,6 +8,8 @@ public class InvertedPyramid{
 
         Scanner sc=new Scanner(System.in);
 
+        System.out.println("invertedpyramid program");
+
         System.out.print("Enter the no of rows:");
         int n=sc.nextInt();
 
