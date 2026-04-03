@@ -8,13 +8,12 @@ public class SquarePattern {
         System.out.print("Enter size: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {          // rows
-            for (int j = 1; j <= n; j++) {      // columns
+        for (int i = 1; i <= n; i++) {         
+            for (int j = 1; j <= n; j++) {     
                 System.out.print("* ");
             }
             System.out.println();
         }
-
         sc.close();
     }
 }
